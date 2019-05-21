@@ -1,0 +1,5 @@
+/media/blue/Data/SLAM/test_client/u_build/CMakeFiles/rebuild_cache.dir
+/media/blue/Data/SLAM/test_client/u_build/CMakeFiles/edit_cache.dir
+/media/blue/Data/SLAM/test_client/u_build/src/CMakeFiles/rebuild_cache.dir
+/media/blue/Data/SLAM/test_client/u_build/src/CMakeFiles/edit_cache.dir
+/media/blue/Data/SLAM/test_client/u_build/src/CMakeFiles/main.dir

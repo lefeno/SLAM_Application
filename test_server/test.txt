@@ -1,0 +1,1 @@
+{"action": "SessionInitiation","pass" : "pass1234"}

@@ -1,0 +1,5 @@
+/home/blue/Desktop/demo/build_u/CMakeFiles/rebuild_cache.dir
+/home/blue/Desktop/demo/build_u/CMakeFiles/edit_cache.dir
+/home/blue/Desktop/demo/build_u/src/CMakeFiles/rebuild_cache.dir
+/home/blue/Desktop/demo/build_u/src/CMakeFiles/edit_cache.dir
+/home/blue/Desktop/demo/build_u/src/CMakeFiles/main.dir

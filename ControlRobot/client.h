@@ -1,0 +1,41 @@
+#ifndef CLIENT_H
+#define CLIENT_H
+
+#include<QObject>
+#include <stdio.h>
+#include <unistd.h>
+#include <iostream>
+#include <sys/socket.h>
+#include <stdlib.h>
+#include <netinet/in.h>
+#include <string.h>
+#include <string>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netdb.h>
+#include <arpa/inet.h>
+#include <QDebug>
+#include <QJsonObject>
+#include <QJsonDocument>
+
+class Client: public QObject {
+    Q_OBJECT
+public:
+    explicit Client(QObject * parent = 0);
+//    virtual ~Client(){};
+
+    int connect2Server(QString host, QString port);
+    int sendData(QJsonObject &json);
+    const char * QString2Char(QString str);
+    int sessionInit(QString pass);
+signals:
+
+
+private:
+    int mSocket;
+    int mValRead;
+    struct sockaddr_in mServ_addr;
+    char buffer[1024];
+};
+
+#endif // CLIENT_H
